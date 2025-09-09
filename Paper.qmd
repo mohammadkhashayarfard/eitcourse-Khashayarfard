@@ -1,0 +1,33 @@
+---
+title: " Studying the Simultaneous Effect of Autonomous Vehicles and
+ Distracted Driving on Safety at Unsignalized Intersections"
+format: html
+editor: visual
+bibliography: references.bib
+---
+
+## Introduction
+
+An autonomous vehicle (AV) does not require direct driver intervention for certain functions such as steering control, acceleration, and braking. The Society of Automotive Engineers (SAE) has introduced six levels of driving automation. These levels start at zero, where no assistance is provided to the driver, and end at level 5, where the driver does not interfere with driving at all. Levels 1 and 2 technologies are currently available, and levels 3 to 5 are being tested. In the 2050s, almost half of the vehicles sold will be AVs, and 40% of the trips could be autonomous. ere are many benefits of using autonomous vehicles, including reduced travel time, lower travel costs, reduced emissions, better fuel consumption, and improved traffic safety. AVs also allow people who cannot drive to use their vehicles. One of the main causes of vehicle crashes is human error. According to the Road Safety Association, more than 90 percent of car accidents are caused by human error, including driver fatigue, distraction, and loss of consciousness. Results of a study show that AVs reduce the rate of accidents and insurance costs by 90% [@fagnant2015]. Nevertheless, this research has overlooked some points. For instance, the investigations show that if automation technology increases total vehicle travel, net safety gains can substantially decline. Furthermore, confidence in automation may discourage drivers from paying attention to the road. Thus, to better understand such effects, trip, mode, and route choice models should be revised to include the impacts of autonomous vehicles on safety. In addition, as more automation techniques are used, different errors (e.g., exposure of AVs to cyber threats and the loss of sensor functionality in adverse weather conditions) can be generated. If such errors are not aptly managed, they may cause critical safety problems. So, it is essential to further investigate the influence of AVs on safety before their presence in transportation networks. is study addresses the effects of AVs with different conditions (i.e., various penetration rates and total
+
+## Methodology
+
+@fig-mindmap shows the complete methodology that has been employed for this study.
+
+![Research Flowchart](images/clipboard-3981390275.png){#fig-mindmap}
+
+## Results
+
+```{r}
+library(ggplot2)
+data(mtcars)
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "Fuel Efficiency by Car Weight",
+      x = "Weight (1000 lbs)",
+      y = "Miles per Gallon") + theme_minimal()
+```
+
+## Discussion
+
+## References
