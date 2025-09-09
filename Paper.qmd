@@ -16,6 +16,8 @@ An autonomous vehicle (AV) does not require direct driver intervention for certa
 
 ![Research Flowchart](images/clipboard-3981390275.png){#fig-mindmap}
 
+Empty line
+
 ## Results
 
 ```{r}
